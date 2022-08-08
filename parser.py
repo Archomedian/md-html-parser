@@ -1,6 +1,4 @@
-from ast import pattern
 import re
-from time import sleep
 
 cardinal_heading1 = r"^# ([ \S]*)"
 repl_cardinal_heading1 = r"<h1>\1</h1>"
